@@ -13,3 +13,5 @@ A simple and efficient task management tool that helps you organize your daily a
     - Open Chrome and go to chrome://extensions/.
     - Enable "Developer mode" by toggling the switch in the top right corner.
     - Click on the "Load unpacked" button and select the directory where you cloned the repository
+
+Have fun with it! :)
