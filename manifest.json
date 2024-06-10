@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Suyash To-Do List Extension",
+  "version": "1.0",
+  "description": "Simple To-Do List Chrome Extension developed by Suyash",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": ["storage", "notifications", "alarms"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
