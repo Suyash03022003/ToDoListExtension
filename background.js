@@ -13,7 +13,6 @@ function createHourlyNotificationAlarm() {
 }
 
 function displayTaskCompletionReminder() {
-    console.log("called")
     getUnfinishedTasks().then(unfinishedTasks => {
         if (unfinishedTasks.length > 0) {
             const notificationTitle = "Task Reminder!";
